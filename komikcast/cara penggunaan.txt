@@ -1,0 +1,9 @@
+Scan semua chapter: python scan_komikcast.py https://komikcast05.com/komik/sayonara-piano-sonata/
+Scan satu chapter: python scan_komikcast.py https://komikcast05.com/komik/sayonara-piano-sonata/ --only 1
+Scan range chapter: python scan_komikcast.py https://komikcast05.com/komik/sayonara-piano-sonata/ --from 5 --to 10
+Scan N chapter terbaru: python scan_komikcast.py https://komikcast05.com/komik/sayonara-piano-sonata/ --latest 3
+
+ jika sudah scan maka akan mendapatkan file txt dengan bertuliskan chapters.txt yang dimana akan digunakna pada downloader nya 
+ 
+downloader 
+python downloader_komikcast.py chapters.txt
